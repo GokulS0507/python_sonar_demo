@@ -1,3 +1,7 @@
 x = 10
-y = 20
-print(x)
+y = 0
+
+result = x / y   # BUG: division by zero
+print(result)
+
+
